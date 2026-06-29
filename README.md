@@ -34,14 +34,14 @@ npm run dev
 | HOD | hod1 | hod1 |
 | Admin | admin1 | admin1 |
 
-## ✨ Features
-- 🔐 JWT Authentication
-- 👥 Role-Based Dashboards
-- 📅 Drag & Drop Timetable
-- ⚠️ Conflict Detection
-- 💬 Real-Time Chat
-- 📊 Faculty Performance
-- 🤖 Smart Faculty Suggestion
+##  Features
+-  JWT Authentication
+-  Role-Based Dashboards
+-  Drag & Drop Timetable
+-  Conflict Detection
+-  Real-Time Chat
+-  Faculty Performance
+-  Smart Faculty Suggestion
 
 ---
 **Developed by Anchal Chauhan**
