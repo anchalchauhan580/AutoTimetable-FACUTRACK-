@@ -1,27 +1,47 @@
-FACUTRACK V2 – Full Stack (Auth + Roles + Drag & Drop + Chat + Performance)
+#  AutoTimetable (FACUTRACK)
 
-Folders:
- - server: Express + SQLite + Socket.IO + JWT auth (port 4000)
- - client: Vite + React + React Router + Socket.IO-client (port 5173)
+AutoTimetable (FACUTRACK) is a full-stack timetable management system with role-based access for Students, Faculty, HOD, and Admin.
 
-Run backend:
- cd server
- npm install
- npm start
+##  Tech Stack
+- React (Vite)
+- Express.js
+- SQLite
+- JWT Authentication
+- Socket.IO
 
-Run frontend:
- cd client
- npm install
- npm run dev
+## 📂 Project Setup
 
-Demo logins:
- - student1 / student1
- - faculty1 / faculty1
- - hod1 / hod1
- - admin1 / admin1
+### Backend
+```bash
+cd server
+npm install
+npm start
+```
 
-Highlights:
- - Student: view timetable, give feedback per class.
- - Faculty: see only their classes, chat with HOD.
- - HOD: drag & drop timetable (conflict detection), view by semester or by faculty, see faculty performance (average rating), chat with faculty/admin.
- - Admin: drag & drop timetable, smart faculty suggestion based on load + free slot, chat with HOD.
+### Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## 🔑 Demo Login
+
+| Role | Username | Password |
+|------|----------|----------|
+| Student | student1 | student1 |
+| Faculty | faculty1 | faculty1 |
+| HOD | hod1 | hod1 |
+| Admin | admin1 | admin1 |
+
+## ✨ Features
+- 🔐 JWT Authentication
+- 👥 Role-Based Dashboards
+- 📅 Drag & Drop Timetable
+- ⚠️ Conflict Detection
+- 💬 Real-Time Chat
+- 📊 Faculty Performance
+- 🤖 Smart Faculty Suggestion
+
+---
+**Developed by Anchal Chauhan**
